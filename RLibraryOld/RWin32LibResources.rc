@@ -1,0 +1,9 @@
+// This generic dialog is requires by rwin32::DialogWindow
+#include <Windows.h>
+#include "RWin32LibGlobalAppData.h"
+
+// We have to provide a dialog template from which to create a dialog
+RWIN32_GENERIC_DIALOG DIALOG 0,0,200,125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+BEGIN
+END

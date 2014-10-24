@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  This manifest is required by RWin32Lib in order to run Visual Styles in Windows.
+  You can make changes to it for your project. Simple ensure that Version 6 of the
+    common control library is added as a dependency.
+  If you choose to take out Common-Controls Ver. 6, undefine the compiler symbol:
+          RWIN32LIB_ENABLE_VISUAL_STYLES - defined in RWin32LibMaster.h
+  
+  This manifest is included as a resource script in RWin32LibResources.rc.
+-->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+        type="win32"
+        name="Microsoft.Windows.Common-Controls"
+        version="6.0.0.0"
+        processorArchitecture="*" 
+        publicKeyToken="6595b64144ccf1df"
+        language="*"
+        />
+    </dependentAssembly>
+  </dependency>
+</assembly>

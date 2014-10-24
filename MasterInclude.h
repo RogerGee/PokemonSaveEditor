@@ -1,0 +1,12 @@
+// MasterInclude.h for PokemonEditor
+#include "RWin32LibMaster.h"
+#include "RList.h"
+#include "RSet.h"
+#include "RIrregArray.h"
+#include "PokemonEditorConstants.h"
+#include "Pokemon.h"
+#include "PokemonEditorMisc.h"
+#include "PokemonSave.h"
+#include "PokemonEditorDialogs.h"
+#include "PokemonEditorMainWindow.h"
+#include "PokemonEditorConsole.h"
